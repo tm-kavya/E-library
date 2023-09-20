@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #94c5ae;
+
+}
+h1 {
+  color: #f05454;
+  text-align: center;
+  padding: 50px;
+  font-size: 34px;
+}
+main{
+  margin-bottom: 40px;
+}
+
+select {
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  padding: 6px 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color:#555;
+  font-size: 14px;
+}
+label{
+  color:#555;
+}
+select:focus {
+  font-size: 14px;
+  outline: none;
+  color: rgb(66, 66, 66);
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+section{
+  text-align: center;
+}
+.status-container{
+  margin-bottom: 20px;
+  display: inline-block;
+}
+button {
+  border: none;
+  padding: 5.5px;
+  font-size: 16px;
+  color: #f05454;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+h2 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+table {
+  margin: 0 auto 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  height: 40px;
+  background-color: #143f6b;
+  color: #f24c4c;
+}
+table thead th:first-child {
+  border-top-left-radius: 8px;
+}
+table thead th:last-child {
+  border-top-right-radius: 8px;
+}
+td {
+  height: 50px;
+  color: #555;
+}
+.first {
+  width: 70px;
+  text-align: center;
+}
+.second {
+  width: 90px;
+  text-align: center;
+}
+.third {
+  width: 140px;
+  padding-left: 40px;
+}
+.fourth {
+  width: 400px;
+  padding-left: 40px;
+}
+.fifth {
+  width: 190px;
+  padding-left: 40px;
+}
+.sixth {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:focus{
+  outline:none;
+}
+.pending {
+  padding: 3px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+}
+.completed {
+  padding: 3px;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+}
+
+table tr:nth-child(odd) td {
+  background: #ccc;
+}
+table tr:nth-child(even) td {
+  background: #fff;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+.not-found {
+  color: #143f6b;
+  text-align: center;
+  font-size: 28px;
+}
